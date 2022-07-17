@@ -29,7 +29,7 @@
 using namespace cocos2d;
 using namespace gd;
 
-const int cvoltonID = 6330800;
+const int cvoltonID = 1;
 const int commentPageBtnTag = 863390891;
 const int questBtnExMarkTag = 863390892;
 const int randomBtnTag = 863390893;
