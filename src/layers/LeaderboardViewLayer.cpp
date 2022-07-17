@@ -81,7 +81,7 @@ bool LeaderboardViewLayer::init(int accountID) {
 
 void LeaderboardViewLayer::startLoading(){
     CCHttpRequest* request = new CCHttpRequest;
-    request->setUrl("http://www.boomlings.com/database/getGJScores20.php");
+    request->setUrl("http://gdps.coderqc.info/database/getGJScores20.php");
     request->setRequestType(CCHttpRequest::HttpRequestType::kHttpPost);
     request->setResponseCallback(this, httpresponse_selector(LeaderboardViewLayer::onLoadFinished));
     //TODO: make this slightly more dynamic
